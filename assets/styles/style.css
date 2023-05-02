@@ -45,7 +45,16 @@ body {
 	text-transform: uppercase;
 }
 
-.result {
+.info-box {
+	display: flex;
+	gap: 5rem;
+	max-width: 800px;
+	width: 100%;
+	justify-content: center;
+}
+
+.result,
+.code {
 	border: 1px solid #222;
 	padding: 2rem;
 	display: flex;
@@ -53,11 +62,12 @@ body {
 	gap: 2rem;
 	justify-content: center;
 	align-items: center;
-	max-width: 500px;
+	max-width: 375px;
 	width: 100%;
 }
 
-.result__title {
+.result__title,
+.code__title {
 	font-size: 2.4rem;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -69,4 +79,10 @@ body {
 .result__text {
 	font-size: 2rem;
 	font-weight: 500;
+}
+
+.code__text {
+	font-style: italic;
+	font-weight: 300;
+	font-size: 1.8rem;
 }
