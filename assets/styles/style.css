@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import './_reset.css';
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #ccc;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.4rem;
+	color: #222;
+	line-height: 1.6;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 70%;
+	gap: 5rem;
+}
+
+.lesson-name {
+	font-size: 3rem;
+	font-weight: 500;
+}
+
+.lesson-number {
+	font-size: 2rem;
+	font-weight: 500;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.result {
+	border: 1px solid #222;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	justify-content: center;
+	align-items: center;
+	max-width: 500px;
+	width: 100%;
+}
+
+.result__title {
+	font-size: 2.4rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-bottom: 1px solid #222;
+	padding-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+.result__text {
+	font-size: 2rem;
+	font-weight: 500;
+}
